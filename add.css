@@ -1,0 +1,75 @@
+body {
+  background-color: #0569FA;
+  color: black;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p, label {
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+  margin: 0.4rem;
+}
+
+.container {
+  width: 350px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="radio"] {
+  display: inline-block;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #AED6F1;
+  color: black;
+  padding: 10px 20px;
+  border-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: auto; /* Center the button */
+}
+
+legend {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}

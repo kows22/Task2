@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Expenses</title>
+  <link rel="stylesheet" href="add.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Add Expenses</h1>
+    <form>
+      <div>
+        <input type="number" placeholder="Amount" id="amount" name="amount" required>
+      </div>
+      <div>
+        <label for="category">Category</label>
+        <select name="category" id="category">
+          <option value="">Select Category</option>
+          <option value="Food">Food</option>
+          <option value="Rent">Rent</option>
+          <option value="Shopping">Shopping</option>
+          <option value="Travel">Travel</option>
+          <option value="Education">Education</option>
+          <option value="Salary">Salary</option>
+          <option value="Transportation">Transportation</option>
+          <option value="Entertainment">Entertainment</option>
+          <option value="Others">Other</option>
+        </select>
+      </div>
+
+      <fieldset>
+        <legend>Select Type:</legend>
+        <input type="radio" id="Credit" name="type" value="Credit"><label for="Credit">Credit</label>
+        <input type="radio" id="Debit" name="type" value="Debit" /><label for="Debit">Debit</label><br>
+      </fieldset><br>
+      <button type="button" onclick="addTransaction()">Add Transaction</button>
+    </form>
+  </div>
+
+  <script src="script2.js"></script>
+</body>
+</html>
